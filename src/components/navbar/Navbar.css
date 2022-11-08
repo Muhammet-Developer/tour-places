@@ -1,0 +1,26 @@
+.navbar{
+    height: 8vh;
+    width: 100%;
+    /* background-color: gray; */
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+a{
+    height: 7.2vh;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding: 15px;
+}
+a:hover{
+    text-align: center;
+    color: black;
+    filter: grayscale(0%);
+}
